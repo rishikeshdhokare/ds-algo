@@ -1,1 +1,1 @@
-###Data structure and Algorithm problems and solutions
+#Data structures and algorithmic problems and solutions
