@@ -1,20 +1,20 @@
 package trees;
 
-public class TreeNode {
+public class BinaryTreeNode {
 
-    private TreeNode left;
+    private BinaryTreeNode left;
     private int data;
-    private TreeNode right;
+    private BinaryTreeNode right;
 
-    TreeNode(int data) {
+    BinaryTreeNode(int data) {
         this.data = data;
     }
 
-    TreeNode getLeft() {
+    BinaryTreeNode getLeft() {
         return left;
     }
 
-    void setLeft(TreeNode left) {
+    void setLeft(BinaryTreeNode left) {
         this.left = left;
     }
 
@@ -22,11 +22,11 @@ public class TreeNode {
         return data;
     }
 
-    TreeNode getRight() {
+    BinaryTreeNode getRight() {
         return right;
     }
 
-    void setRight(TreeNode right) {
+    void setRight(BinaryTreeNode right) {
         this.right = right;
     }
 

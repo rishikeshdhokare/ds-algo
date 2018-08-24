@@ -5,9 +5,9 @@ import org.junit.Test;
 import static org.junit.Assert.assertArrayEquals;
 import static trees.TreeTestHelper.createBinaryTree;
 
-public class TreeTest {
+public class BinaryTreeTest {
 
-    final Tree binaryTree = createBinaryTree();
+    final BinaryTree binaryTree = createBinaryTree();
 
     @Test
     public void shouldTraverseTreeInOrder() {

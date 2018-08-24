@@ -3,12 +3,12 @@ package trees;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Tree {
+public class BinaryTree {
 
-    private TreeNode root;
+    private BinaryTreeNode root;
     private List<Integer> traversedSoFar = new ArrayList<>();
 
-    Tree(TreeNode root) {
+    BinaryTree(BinaryTreeNode root) {
         this.root = root;
     }
 
@@ -24,7 +24,7 @@ public class Tree {
         return traversePostOrder(root);
     }
 
-    private List<Integer> traversePreOrder(TreeNode root) {
+    private List<Integer> traversePreOrder(BinaryTreeNode root) {
         if (root == null) {
             return null;
         }
@@ -34,7 +34,7 @@ public class Tree {
         return traversedSoFar;
     }
 
-    private List<Integer> traverseInOrder(TreeNode root) {
+    private List<Integer> traverseInOrder(BinaryTreeNode root) {
         if (root == null) {
             return null;
         }
@@ -44,7 +44,7 @@ public class Tree {
         return traversedSoFar;
     }
 
-    private List<Integer> traversePostOrder(TreeNode root) {
+    private List<Integer> traversePostOrder(BinaryTreeNode root) {
         if (root == null) {
             return null;
         }
