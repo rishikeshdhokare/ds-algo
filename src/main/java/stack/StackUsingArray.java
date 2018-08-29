@@ -1,12 +1,12 @@
 package stack;
 
-class Stack {
+class StackUsingArray {
 
     private int size;
     private int[] array;
     private int top;
 
-    Stack(int size) {
+    StackUsingArray(int size) {
         this.size = size;
         this.array = new int[size];
         this.top = -1;
