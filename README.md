@@ -1,1 +1,14 @@
 ## Data structures and algorithmic problems and solutions
+
+1. **Stack** 
+    1. Stack implementation using Array
+    2. Stack implementation using LinkedList
+    3. Stack implementation using 2 Queues
+2. **Tree**
+    1. Binary Tree - pre order traversal
+    2. Binary Tree - in order traversal
+    3. Binary Tree - post order traversal
+    4. Binary Tree - level order traversal
+3. **Palindrome Finder**
+    1. Check if a string is a palindrome
+    2. Find all palindromes in a string
