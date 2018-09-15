@@ -12,3 +12,5 @@
 3. **Palindrome Finder**
     1. Check if a string is a palindrome
     2. Find all palindromes in a string
+4. **Array**
+    1. Move all zeros in an integer array to the end without using extra space
