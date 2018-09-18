@@ -1,5 +1,6 @@
 package trees;
 
+import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertArrayEquals;
@@ -7,7 +8,12 @@ import static trees.TreeTestHelper.createBinaryTree;
 
 public class BinaryTreeTest {
 
-    final BinaryTree binaryTree = createBinaryTree();
+    private BinaryTree binaryTree;
+
+    @Before
+    public void setUp() {
+        binaryTree = createBinaryTree();
+    }
 
     @Test
     public void shouldTraverseTreePreOrder() {
@@ -27,5 +33,10 @@ public class BinaryTreeTest {
     @Test
     public void shouldTraverseTreeLevelOrder() {
         assertArrayEquals(new int[]{1, 2, 3, 4, 5, 6, 7}, binaryTree.traverseLevelOrder().stream().mapToInt(i -> i).toArray());
+    }
+
+    @Test
+    public void shouldTraverseTreeInZigZagOrder() {
+        assertArrayEquals(new int[]{1, 3, 2, 4, 5, 6, 7}, binaryTree.traverseZigZagOrder().stream().mapToInt(i -> i).toArray());
     }
 }
