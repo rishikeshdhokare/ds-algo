@@ -9,6 +9,7 @@
     2. Binary Tree - in order traversal
     3. Binary Tree - post order traversal
     4. Binary Tree - level order traversal
+    5. Binary Tree - spiral/zigzag order traversal
 3. **Palindrome Finder**
     1. Check if a string is a palindrome
     2. Find all palindromes in a string
