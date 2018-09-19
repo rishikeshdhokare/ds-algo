@@ -15,3 +15,5 @@
     2. Find all palindromes in a string
 4. **Array**
     1. Move all zeros in an integer array to the end without using extra space
+5. **Strings**
+    1. Convert first letter in all words in a sentence to upper case
