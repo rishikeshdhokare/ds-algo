@@ -17,3 +17,5 @@
     1. Move all zeros in an integer array to the end without using extra space
 5. **Strings**
     1. Convert first letter in all words in a sentence to upper case
+6. **Codility Problems**
+    1. Given a list of temperatures, find a season with highest amplitude of temperatures
