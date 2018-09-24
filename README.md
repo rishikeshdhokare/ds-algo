@@ -19,3 +19,6 @@
     1. Convert first letter in all words in a sentence to upper case
 6. **Codility Problems**
     1. Given a list of temperatures, find a season with highest amplitude of temperatures
+    2. String builder with `a` and `b` without having 3 consecutive characters
+7. **Dynamic Programming**
+    1. 0-1 knapsack
